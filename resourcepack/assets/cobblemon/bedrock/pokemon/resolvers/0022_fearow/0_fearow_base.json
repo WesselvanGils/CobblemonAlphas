@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:fearow",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:fearow",
+            "model": "cobblemon:fearow.geo",
+            "texture": "cobblemon:textures/pokemon/0022_fearow/fearow.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0022_fearow/fearow_shiny.png"
+        },
+        {
+            "aspects": [
+                "alpha"
+            ],
+            "layers": [
+                {
+                    "name": "alpha_eyes",
+                    "texture": "cobblemon:textures/pokemon/0022_fearow/fearow_eyes.png",
+                    "emissive": true,
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}

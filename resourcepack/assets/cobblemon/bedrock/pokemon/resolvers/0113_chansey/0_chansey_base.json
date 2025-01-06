@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:chansey",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:chansey",
+            "model": "cobblemon:chansey.geo",
+            "texture": "cobblemon:textures/pokemon/0113_chansey/chansey.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0113_chansey/chansey_shiny.png"
+        },
+        {
+            "aspects": [
+                "alpha"
+            ],
+            "layers": [
+                {
+                    "name": "alpha_eyes",
+                    "texture": "cobblemon:textures/pokemon/0113_chansey/chansey_eyes.png",
+                    "emissive": true,
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}
