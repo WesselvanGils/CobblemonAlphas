@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:vaporeon",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:vaporeon",
+            "model": "cobblemon:vaporeon.geo",
+            "texture": "cobblemon:textures/pokemon/0134_vaporeon/vaporeon.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0134_vaporeon/vaporeon_shiny.png"
+        },
+        {
+            "aspects": [
+                "alpha"
+            ],
+            "layers": [
+                {
+                    "name": "alpha_eyes",
+                    "texture": "cobblemon:textures/pokemon/0134_vaporeon/vaporeon_eyes.png",
+                    "emissive": true,
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}

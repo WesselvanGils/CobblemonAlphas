@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:jynx",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:jynx",
+            "model": "cobblemon:jynx.geo",
+            "texture": "cobblemon:textures/pokemon/0124_jynx/jynx.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0124_jynx/jynx_shiny.png"
+        },
+        {
+            "aspects": [
+                "alpha"
+            ],
+            "layers": [
+                {
+                    "name": "alpha_eyes",
+                    "texture": "cobblemon:textures/pokemon/0124_jynx/jynx_eyes.png",
+                    "emissive": true,
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}
