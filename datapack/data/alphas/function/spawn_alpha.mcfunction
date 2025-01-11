@@ -1,1 +1,0 @@
-$pokespawn $(species) level=$(level) alpha uncatchable

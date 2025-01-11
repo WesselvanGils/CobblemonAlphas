@@ -1,0 +1,1 @@
+$pokespawn $(species) level=$(level) hp_iv=$(healthIv) attack_iv=$(attackIv) defence_iv=$(defenceIv) special_attack_iv=$(spattackIv) special_defence_iv=$(spdefenceIv) speed_iv=$(speedIv) alpha uncatchable
