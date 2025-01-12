@@ -46,7 +46,7 @@ execute if score $roll_3 rng matches 6 run data modify storage alpha:replace spe
 execute at @s run function alphas:spawning/spawn_alpha with storage alpha:replace
 
 tag @s add me
-execute at @s run tag @n[type=cobblemon:pokemon, distance=..1, tag=!me] add non_wild
+execute at @s run tag @n[type=cobblemon:pokemon, distance=..1, tag=!me] add alphas.non_wild
 
 tp @s ~ -300 ~
 kill @s
