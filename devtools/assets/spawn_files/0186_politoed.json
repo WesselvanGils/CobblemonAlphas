@@ -1,0 +1,390 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "politoed-1",
+            "pokemon": "politoed",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.025,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "politoed-2",
+            "pokemon": "politoed",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.025,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:lily_pad"
+                ]
+            }
+        },
+        {
+            "id": "politoed-3",
+            "pokemon": "politoed",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.015,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ],
+                "isRaining": true,
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "politoed-4",
+            "pokemon": "politoed",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.015,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "politoed-5",
+            "pokemon": "politoed",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.005,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "politoed-6",
+            "pokemon": "politoed",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.015,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "politoed-7",
+            "pokemon": "politoed",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.025,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "politoed-8",
+            "pokemon": "politoed",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.025,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "politoed-9",
+            "pokemon": "politoed",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.025,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:lily_pad"
+                ]
+            }
+        },
+        {
+            "id": "politoed-10",
+            "pokemon": "politoed",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.015,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "politoed-11",
+            "pokemon": "politoed",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.025,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "politoed-12",
+            "pokemon": "politoed",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.005,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "politoed-13",
+            "pokemon": "politoed",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.015,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "politoed-14",
+            "pokemon": "politoed",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "34-50",
+            "weight": 0.025,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        }
+    ]
+}

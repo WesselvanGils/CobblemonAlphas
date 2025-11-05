@@ -1,0 +1,70 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "raichu-1",
+            "pokemon": "raichu",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "27-49",
+            "weight": 0.048,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "raichu-alolan-2",
+            "pokemon": "raichu alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "27-49",
+            "weight": 0.16,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_beach",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shellder-1",
+            "pokemon": "shellder",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "shellder-2",
+            "pokemon": "shellder",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 5.7,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "shellder-3",
+            "pokemon": "shellder",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.5,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "shellder-4",
+            "pokemon": "shellder",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 1.9,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "shellder-5",
+            "pokemon": "shellder",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.5,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "shellder-6",
+            "pokemon": "shellder",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 1.9,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "shellder-7",
+            "pokemon": "shellder",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 5.7,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "shellder-8",
+            "pokemon": "shellder",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.5,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        }
+    ]
+}

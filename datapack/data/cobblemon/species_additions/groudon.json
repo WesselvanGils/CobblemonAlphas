@@ -1,1 +1,15 @@
-{"target":"cobblemon:groudon","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.25}]}
+{
+    "target": "cobblemon:groudon",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.25
+        }
+    ]
+}

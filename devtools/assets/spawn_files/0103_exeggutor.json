@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "exeggutor-1",
+            "pokemon": "exeggutor",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-53",
+            "weight": 0.1,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "exeggutor-alolan-2",
+            "pokemon": "exeggutor alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "28-53",
+            "weight": 0.8,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_beach",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

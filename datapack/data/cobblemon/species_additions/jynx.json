@@ -1,1 +1,15 @@
-{"target":"cobblemon:jynx","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.625}]}
+{
+    "target": "cobblemon:jynx",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.625
+        }
+    ]
+}

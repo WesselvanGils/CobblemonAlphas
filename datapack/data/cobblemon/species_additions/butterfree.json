@@ -1,1 +1,15 @@
-{"target":"cobblemon:butterfree","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.75}]}
+{
+    "target": "cobblemon:butterfree",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.75
+        }
+    ]
+}

@@ -1,1 +1,15 @@
-{"target":"cobblemon:huntail","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.4375}]}
+{
+    "target": "cobblemon:huntail",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.4375
+        }
+    ]
+}

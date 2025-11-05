@@ -1,0 +1,66 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "feebas-1",
+            "pokemon": "feebas",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-20",
+            "weight": 5.7,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "feebas-2",
+            "pokemon": "feebas",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-20",
+            "weight": 9.5,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 1,
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        }
+    ]
+}

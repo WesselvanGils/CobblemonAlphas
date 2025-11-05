@@ -1,0 +1,39 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rhyhorn-1",
+            "pokemon": "rhyhorn",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 1.8,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_savanna"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ]
+            }
+        }
+    ]
+}

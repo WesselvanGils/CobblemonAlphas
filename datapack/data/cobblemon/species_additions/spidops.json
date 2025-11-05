@@ -1,1 +1,15 @@
-{"target":"cobblemon:spidops","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.25}]}
+{
+    "target": "cobblemon:spidops",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.25
+        }
+    ]
+}

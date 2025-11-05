@@ -1,1 +1,15 @@
-{"target":"cobblemon:golduck","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.5}]}
+{
+    "target": "cobblemon:golduck",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.5
+        }
+    ]
+}

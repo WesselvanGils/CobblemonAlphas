@@ -1,1 +1,15 @@
-{"target":"cobblemon:rayquaza","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.875}]}
+{
+    "target": "cobblemon:rayquaza",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.875
+        }
+    ]
+}

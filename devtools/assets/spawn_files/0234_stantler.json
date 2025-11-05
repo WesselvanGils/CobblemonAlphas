@@ -1,0 +1,58 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "stantler-1",
+            "pokemon": "stantler",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 5.4,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_snowy_taiga",
+                    "#cobblemon:is_tundra"
+                ]
+            }
+        },
+        {
+            "id": "stantler-2",
+            "pokemon": "stantler",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 100.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "neededNearbyBlocks": [
+                    "aether:holiday_leaves",
+                    "aether:decorated_holiday_leaves"
+                ]
+            }
+        }
+    ]
+}

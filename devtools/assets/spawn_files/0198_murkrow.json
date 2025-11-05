@@ -1,0 +1,96 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "murkrow-1",
+            "pokemon": "murkrow",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-41",
+            "weight": 9.5,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "murkrow-3",
+            "pokemon": "murkrow",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-41",
+            "weight": 5.7,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "murkrow-4",
+            "pokemon": "murkrow",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-41",
+            "weight": 5.7,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "murkrow-7",
+            "pokemon": "murkrow",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-41",
+            "weight": 9.5,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_sky"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

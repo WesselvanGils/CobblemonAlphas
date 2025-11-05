@@ -1,0 +1,84 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "inteleon-1",
+            "pokemon": "inteleon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "35-53",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "inteleon-2",
+            "pokemon": "inteleon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "35-53",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "inteleon-3",
+            "pokemon": "inteleon",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "35-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "inteleon-4",
+            "pokemon": "inteleon",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "35-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

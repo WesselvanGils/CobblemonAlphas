@@ -1,0 +1,96 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gabite-1",
+            "pokemon": "gabite",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-47",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_mountain"
+                ],
+                "minY": 0
+            }
+        },
+        {
+            "id": "gabite-2",
+            "pokemon": "gabite",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "24-47",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "gabite-3",
+            "pokemon": "gabite",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "24-47",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_deep_dark",
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "gabite-4",
+            "pokemon": "gabite",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-47",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        }
+    ]
+}

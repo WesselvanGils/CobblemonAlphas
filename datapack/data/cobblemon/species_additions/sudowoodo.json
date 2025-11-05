@@ -1,1 +1,15 @@
-{"target":"cobblemon:sudowoodo","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.875}]}
+{
+    "target": "cobblemon:sudowoodo",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.875
+        }
+    ]
+}

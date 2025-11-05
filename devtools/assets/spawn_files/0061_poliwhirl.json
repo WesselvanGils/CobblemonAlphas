@@ -1,0 +1,390 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "poliwhirl-1",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.95,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "poliwhirl-2",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.95,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:lily_pad"
+                ]
+            }
+        },
+        {
+            "id": "poliwhirl-3",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.57,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ],
+                "isRaining": true,
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "poliwhirl-4",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.57,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "poliwhirl-5",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.19,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "poliwhirl-6",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.57,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "poliwhirl-7",
+            "pokemon": "poliwhirl",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.95,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "poliwhirl-8",
+            "pokemon": "poliwhirl",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.95,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "poliwhirl-9",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.95,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:lily_pad"
+                ]
+            }
+        },
+        {
+            "id": "poliwhirl-10",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.57,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "poliwhirl-11",
+            "pokemon": "poliwhirl",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.95,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "poliwhirl-12",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.19,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "poliwhirl-13",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.57,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "poliwhirl-14",
+            "pokemon": "poliwhirl",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 0.95,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        }
+    ]
+}

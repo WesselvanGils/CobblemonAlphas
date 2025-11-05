@@ -1,0 +1,54 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kakuna-1",
+            "pokemon": "kakuna",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-21",
+            "weight": 2.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "kakuna-2",
+            "pokemon": "kakuna",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-21",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#the_bumblezone:the_bumblezone"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        }
+    ]
+}

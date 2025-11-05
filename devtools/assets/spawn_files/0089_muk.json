@@ -1,0 +1,345 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "muk-1",
+            "pokemon": "muk",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "38-50",
+            "weight": 0.32,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "muk-2",
+            "pokemon": "muk",
+            "presets": [
+                "water",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "38-50",
+            "weight": 0.32,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "muk-3",
+            "pokemon": "muk",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "38-50",
+            "weight": 0.32,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "muk-4",
+            "pokemon": "muk",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "38-50",
+            "weight": 0.2,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "muk-5",
+            "pokemon": "muk",
+            "presets": [
+                "water",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "38-50",
+            "weight": 0.2,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "muk-6",
+            "pokemon": "muk",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "38-50",
+            "weight": 0.2,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "muk-7",
+            "pokemon": "muk",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-50",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_toxic"
+                ]
+            }
+        },
+        {
+            "id": "muk-8",
+            "pokemon": "muk",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "38-50",
+            "weight": 0.2,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "muk-9",
+            "pokemon": "muk",
+            "presets": [
+                "water",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "38-50",
+            "weight": 0.2,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "muk-10",
+            "pokemon": "muk",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "38-50",
+            "weight": 0.2,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

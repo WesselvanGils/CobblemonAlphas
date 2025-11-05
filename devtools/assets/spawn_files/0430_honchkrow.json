@@ -1,0 +1,76 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "honchkrow-1",
+            "pokemon": "honchkrow",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-51",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "honchkrow-3",
+            "pokemon": "honchkrow",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-51",
+            "weight": 0.3,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_taiga"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "honchkrow-5",
+            "pokemon": "honchkrow",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-51",
+            "weight": 0.5,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_sky"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

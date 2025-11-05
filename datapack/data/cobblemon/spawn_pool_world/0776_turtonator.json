@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-turtonator-1","pokemon":"turtonator alpha","presets":["natural","wild"],"type":"pokemon","context":"grounded","bucket":"uncommon","level":"24-49","weight":3.3333333333333335,"condition":{"biomes":["#cobblemon:nether/is_basalt"]}}]}

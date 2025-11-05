@@ -1,0 +1,68 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "chimecho-1",
+            "pokemon": "chimecho",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-46",
+            "weight": 0.32,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_taiga"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "chimecho-2",
+            "pokemon": "chimecho",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-46",
+            "weight": 0.96,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_magical"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "chimecho-3",
+            "pokemon": "chimecho",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-46",
+            "weight": 16.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "timeRange": "night",
+                "neededNearbyBlocks": [
+                    "minecraft:bell"
+                ]
+            }
+        }
+    ]
+}

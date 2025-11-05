@@ -1,0 +1,119 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "arrokuda-1",
+            "pokemon": "arrokuda",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "arrokuda-2",
+            "pokemon": "arrokuda",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "arrokuda-3",
+            "pokemon": "arrokuda",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "arrokuda-4",
+            "pokemon": "arrokuda",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

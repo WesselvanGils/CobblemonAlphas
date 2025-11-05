@@ -1,0 +1,270 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "starmie-1",
+            "pokemon": "starmie",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "29-52",
+            "weight": 0.8,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "starmie-2",
+            "pokemon": "starmie",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "29-52",
+            "weight": 0.48,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "starmie-3",
+            "pokemon": "starmie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "29-52",
+            "weight": 0.48,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "starmie-4",
+            "pokemon": "starmie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "29-52",
+            "weight": 0.16,
+            "weightMultipliers": [
+                {
+                    "multiplier": 1.5,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                },
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "starmie-5",
+            "pokemon": "starmie",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "29-52",
+            "weight": 0.48,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "starmie-6",
+            "pokemon": "starmie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "29-52",
+            "weight": 0.48,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "starmie-7",
+            "pokemon": "starmie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "29-52",
+            "weight": 0.16,
+            "weightMultipliers": [
+                {
+                    "multiplier": 1.5,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                },
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "starmie-8",
+            "pokemon": "starmie",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "29-52",
+            "weight": 0.48,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "starmie-9",
+            "pokemon": "starmie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "29-52",
+            "weight": 0.48,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "starmie-10",
+            "pokemon": "starmie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "29-52",
+            "weight": 0.16,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 1,
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        }
+    ]
+}

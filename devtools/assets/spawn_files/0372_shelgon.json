@@ -1,0 +1,47 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shelgon-1",
+            "pokemon": "shelgon",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "30-42",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ]
+            }
+        },
+        {
+            "id": "shelgon-2",
+            "pokemon": "shelgon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-42",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_dripstone"
+                ]
+            }
+        }
+    ]
+}

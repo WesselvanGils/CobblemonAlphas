@@ -1,0 +1,327 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "overqwil-1",
+            "pokemon": "overqwil",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "39-51",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:ocean_monument"
+                ]
+            }
+        },
+        {
+            "id": "overqwil-2",
+            "pokemon": "overqwil",
+            "presets": [
+                "water",
+                "ocean_monument"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "39-51",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "overqwil-3",
+            "pokemon": "overqwil",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "39-51",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "overqwil-4",
+            "pokemon": "overqwil",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "39-51",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ],
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "overqwil-5",
+            "pokemon": "overqwil",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "39-51",
+            "weight": 6.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ],
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "overqwil-6",
+            "pokemon": "overqwil",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "39-51",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:ocean_monument"
+                ]
+            }
+        },
+        {
+            "id": "overqwil-7",
+            "pokemon": "overqwil",
+            "presets": [
+                "water",
+                "ocean_monument"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "39-51",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "overqwil-8",
+            "pokemon": "overqwil",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "39-51",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "overqwil-9",
+            "pokemon": "overqwil",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "39-51",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ],
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "overqwil-10",
+            "pokemon": "overqwil",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "39-51",
+            "weight": 6.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ],
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "overqwil-11",
+            "pokemon": "overqwil",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "39-51",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "overqwil-12",
+            "pokemon": "overqwil",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "39-51",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "overqwil-13",
+            "pokemon": "overqwil",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "39-51",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ],
+                "minLureLevel": 1,
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        }
+    ]
+}

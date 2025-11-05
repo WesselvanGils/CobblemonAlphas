@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-cradily-1","pokemon":"cradily alpha","presets":["water"],"type":"pokemon","context":"seafloor","bucket":"ultra-rare","level":"40-50","weight":1.3333333333333333,"condition":{"minSkyLight":0,"maxSkyLight":7,"biomes":["#cobblemon:is_lush"]}}]}

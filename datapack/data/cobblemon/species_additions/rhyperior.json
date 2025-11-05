@@ -1,1 +1,15 @@
-{"target":"cobblemon:rhyperior","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.375}]}
+{
+    "target": "cobblemon:rhyperior",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.375
+        }
+    ]
+}

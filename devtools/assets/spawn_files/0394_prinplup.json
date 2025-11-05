@@ -1,0 +1,104 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "prinplup-1",
+            "pokemon": "prinplup",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-41",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "prinplup-2",
+            "pokemon": "prinplup",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "16-41",
+            "weight": 3.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "prinplup-3",
+            "pokemon": "prinplup",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "16-41",
+            "weight": 3.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean",
+                    "#minecraft:frozen_river",
+                    "#cobblemon:is_glacial",
+                    "#cobblemon:is_tundra"
+                ]
+            }
+        },
+        {
+            "id": "prinplup-4",
+            "pokemon": "prinplup",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "16-41",
+            "weight": 3.6,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "prinplup-5",
+            "pokemon": "prinplup",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "16-41",
+            "weight": 3.6,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean",
+                    "#minecraft:frozen_river",
+                    "#cobblemon:is_glacial",
+                    "#cobblemon:is_tundra"
+                ]
+            }
+        }
+    ]
+}

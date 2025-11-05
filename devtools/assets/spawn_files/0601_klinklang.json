@@ -1,0 +1,76 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "klinklang-1",
+            "pokemon": "klinklang",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "49-52",
+            "weight": 0.1,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:redstone_ores",
+                    "#c:redstone_ores"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "klinklang-2",
+            "pokemon": "klinklang",
+            "presets": [
+                "natural",
+                "redstone"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "49-52",
+            "weight": 0.02,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "klinklang-3",
+            "pokemon": "klinklang",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "49-52",
+            "weight": 0.02,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "create:cogwheel",
+                    "create:large_cogwheel",
+                    "create:gearbox",
+                    "create:vertical_gearbox"
+                ]
+            }
+        }
+    ]
+}

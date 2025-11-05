@@ -1,0 +1,122 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bidoof-1",
+            "pokemon": "bidoof",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-25",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            }
+        },
+        {
+            "id": "bidoof-2",
+            "pokemon": "bidoof",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-25",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_taiga"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "bidoof-3",
+            "pokemon": "bidoof",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "1-25",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "bidoof-4",
+            "pokemon": "bidoof",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-25",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "bidoof-5",
+            "pokemon": "bidoof",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-25",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "riolu-1",
+            "pokemon": "riolu",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "4-29",
+            "weight": 7.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "riolu-2",
+            "pokemon": "riolu",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "4-29",
+            "weight": 7.5,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        }
+    ]
+}

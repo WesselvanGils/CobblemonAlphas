@@ -1,0 +1,111 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "corsola-1",
+            "pokemon": "corsola",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ]
+            }
+        },
+        {
+            "id": "corsola-2",
+            "pokemon": "corsola",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "corsola-3",
+            "pokemon": "corsola",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "16-41",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "corsola-4",
+            "pokemon": "corsola",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "corsola-5",
+            "pokemon": "corsola",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "16-41",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        }
+    ]
+}

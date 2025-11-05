@@ -1,1 +1,15 @@
-{"target":"cobblemon:ledian","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.09375}]}
+{
+    "target": "cobblemon:ledian",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.09375
+        }
+    ]
+}

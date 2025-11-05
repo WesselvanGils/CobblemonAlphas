@@ -1,1 +1,15 @@
-{"target":"cobblemon:squawkabilly","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.6875}]}
+{
+    "target": "cobblemon:squawkabilly",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.6875
+        }
+    ]
+}

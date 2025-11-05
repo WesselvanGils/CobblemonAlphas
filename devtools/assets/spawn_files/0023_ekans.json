@@ -1,0 +1,138 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ekans-classic-1",
+            "pokemon": "ekans snake_pattern=classic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 4.05,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            }
+        },
+        {
+            "id": "ekans-legacy-2",
+            "pokemon": "ekans snake_pattern=legacy",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 0.27,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            }
+        },
+        {
+            "id": "ekans-attack-2",
+            "pokemon": "ekans snake_pattern=attack",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 0.27,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            }
+        },
+        {
+            "id": "ekans-speed-2",
+            "pokemon": "ekans snake_pattern=speed",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 0.27,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            }
+        },
+        {
+            "id": "ekans-elusive-2",
+            "pokemon": "ekans snake_pattern=elusive",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 0.27,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            }
+        },
+        {
+            "id": "ekans-sound-2",
+            "pokemon": "ekans snake_pattern=sound",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 0.27,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            }
+        },
+        {
+            "id": "ekans-dark-3",
+            "pokemon": "ekans snake_pattern=dark",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_desert"
+                ]
+            }
+        }
+    ]
+}

@@ -1,1 +1,15 @@
-{"target":"cobblemon:mothim","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.25}]}
+{
+    "target": "cobblemon:mothim",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.25
+        }
+    ]
+}

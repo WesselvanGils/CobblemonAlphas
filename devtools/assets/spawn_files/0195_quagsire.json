@@ -1,0 +1,380 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "quagsire-1",
+            "pokemon": "quagsire",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "quagsire-2",
+            "pokemon": "quagsire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "quagsire-3",
+            "pokemon": "quagsire",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-43",
+            "weight": 1.6,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ],
+                "maxY": 62
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-4",
+            "pokemon": "quagsire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "20-43",
+            "weight": 1.6,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "maxY": 62
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-5",
+            "pokemon": "quagsire",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 0.2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-6",
+            "pokemon": "quagsire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-7",
+            "pokemon": "quagsire",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-8",
+            "pokemon": "quagsire",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 0.2,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-9",
+            "pokemon": "quagsire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-10",
+            "pokemon": "quagsire",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 0.2,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-11",
+            "pokemon": "quagsire",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-12",
+            "pokemon": "quagsire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-13",
+            "pokemon": "quagsire",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-43",
+            "weight": 1.6,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "quagsire-14",
+            "pokemon": "quagsire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "20-43",
+            "weight": 1.6,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "steelix-1",
+            "pokemon": "steelix",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-51",
+            "weight": 0.48,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "steelix-2",
+            "pokemon": "steelix",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-51",
+            "weight": 0.16,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_basalt"
+                ]
+            }
+        }
+    ]
+}

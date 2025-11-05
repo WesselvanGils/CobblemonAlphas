@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-kecleon-1","pokemon":"kecleon alpha","presets":["natural","wild"],"type":"pokemon","context":"grounded","bucket":"uncommon","level":"19-44","weight":3.3333333333333335,"condition":{"minSkyLight":8,"maxSkyLight":15,"biomes":["#cobblemon:is_jungle","#cobblemon:is_tropical_island"]}}]}

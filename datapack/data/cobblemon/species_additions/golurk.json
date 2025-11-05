@@ -1,1 +1,15 @@
-{"target":"cobblemon:golurk","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":2.0625}]}
+{
+    "target": "cobblemon:golurk",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 2.0625
+        }
+    ]
+}

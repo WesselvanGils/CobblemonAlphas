@@ -1,1 +1,15 @@
-{"target":"cobblemon:gourgeist","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.7124999999999999}]}
+{
+    "target": "cobblemon:gourgeist",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.7124999999999999
+        }
+    ]
+}

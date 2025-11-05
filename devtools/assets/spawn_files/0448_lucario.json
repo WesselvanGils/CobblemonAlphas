@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lucario-1",
+            "pokemon": "lucario",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-53",
+            "weight": 2.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "lucario-2",
+            "pokemon": "lucario",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "24-53",
+            "weight": 2.5,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        }
+    ]
+}

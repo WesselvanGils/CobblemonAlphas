@@ -1,0 +1,77 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sizzlipede-1",
+            "pokemon": "sizzlipede",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 5.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_volcanic"
+                ]
+            }
+        },
+        {
+            "id": "sizzlipede-2",
+            "pokemon": "sizzlipede",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_basalt"
+                ]
+            },
+            "drops": {
+                "amount": 2,
+                "entries": [
+                    {
+                        "item": "minecraft:blaze_powder",
+                        "percentage": 5.0
+                    },
+                    {
+                        "item": "cobblemon:charti_berry",
+                        "percentage": 2.5
+                    }
+                ]
+            }
+        },
+        {
+            "id": "sizzlipede-3",
+            "pokemon": "sizzlipede",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_wasteland"
+                ]
+            }
+        }
+    ]
+}

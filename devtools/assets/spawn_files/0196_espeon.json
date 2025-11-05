@@ -1,0 +1,86 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "espeon-1",
+            "pokemon": "espeon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "28-53",
+            "weight": 1.2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_hills"
+                ]
+            }
+        },
+        {
+            "id": "espeon-2",
+            "pokemon": "espeon",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "28-53",
+            "weight": 0.02,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "espeon-3",
+            "pokemon": "espeon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "28-53",
+            "weight": 0.02,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "espeon-4",
+            "pokemon": "espeon",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "28-53",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

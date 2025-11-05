@@ -1,0 +1,242 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "clodsire-1",
+            "pokemon": "clodsire",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "clodsire-2",
+            "pokemon": "clodsire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "clodsire-3",
+            "pokemon": "clodsire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "20-43",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "clodsire-4",
+            "pokemon": "clodsire",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-43",
+            "weight": 1.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "clodsire-5",
+            "pokemon": "clodsire",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "clodsire-6",
+            "pokemon": "clodsire",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "20-43",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "clodsire-7",
+            "pokemon": "clodsire",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "clodsire-8",
+            "pokemon": "clodsire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "clodsire-9",
+            "pokemon": "clodsire",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "20-43",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "clodsire-10",
+            "pokemon": "clodsire",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "clodsire-11",
+            "pokemon": "clodsire",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "20-43",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "clodsire-12",
+            "pokemon": "clodsire",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "20-43",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ],
+                "minLureLevel": 1
+            }
+        }
+    ]
+}

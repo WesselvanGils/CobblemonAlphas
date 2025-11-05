@@ -1,0 +1,144 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "blastoise-1",
+            "pokemon": "blastoise",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "blastoise-2",
+            "pokemon": "blastoise",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "blastoise-3",
+            "pokemon": "blastoise",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "blastoise-4",
+            "pokemon": "blastoise",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "blastoise-5",
+            "pokemon": "blastoise",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

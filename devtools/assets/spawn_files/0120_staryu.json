@@ -1,0 +1,270 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "staryu-1",
+            "pokemon": "staryu",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "9-34",
+            "weight": 9.2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "staryu-2",
+            "pokemon": "staryu",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "9-34",
+            "weight": 5.52,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "staryu-3",
+            "pokemon": "staryu",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "9-34",
+            "weight": 5.52,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "staryu-4",
+            "pokemon": "staryu",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "9-34",
+            "weight": 1.84,
+            "weightMultipliers": [
+                {
+                    "multiplier": 1.5,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                },
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "staryu-5",
+            "pokemon": "staryu",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "9-34",
+            "weight": 5.52,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "staryu-6",
+            "pokemon": "staryu",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "9-34",
+            "weight": 5.52,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "staryu-7",
+            "pokemon": "staryu",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "9-34",
+            "weight": 1.84,
+            "weightMultipliers": [
+                {
+                    "multiplier": 1.5,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                },
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "staryu-8",
+            "pokemon": "staryu",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "9-34",
+            "weight": 5.52,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "staryu-9",
+            "pokemon": "staryu",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "9-34",
+            "weight": 5.52,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "staryu-10",
+            "pokemon": "staryu",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "9-34",
+            "weight": 1.84,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 1,
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        }
+    ]
+}

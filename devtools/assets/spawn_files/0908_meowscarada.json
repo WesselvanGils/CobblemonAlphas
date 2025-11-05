@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "meowscarada-1",
+            "pokemon": "meowscarada",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "36-53",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_magical"
+                ]
+            }
+        }
+    ]
+}

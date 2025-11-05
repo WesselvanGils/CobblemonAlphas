@@ -1,1 +1,15 @@
-{"target":"cobblemon:aurorus","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.5625}]}
+{
+    "target": "cobblemon:aurorus",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.5625
+        }
+    ]
+}

@@ -1,0 +1,271 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mudkip-1",
+            "pokemon": "mudkip",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "isRaining": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "mudkip-2",
+            "pokemon": "mudkip",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "mudkip-3",
+            "pokemon": "mudkip",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "mudkip-4",
+            "pokemon": "mudkip",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "mudkip-5",
+            "pokemon": "mudkip",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_savanna",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "mudkip-6",
+            "pokemon": "mudkip",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "mudkip-7",
+            "pokemon": "mudkip",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "mudkip-8",
+            "pokemon": "mudkip",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_savanna",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "mudkip-9",
+            "pokemon": "mudkip",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "mudkip-10",
+            "pokemon": "mudkip",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "mudkip-11",
+            "pokemon": "mudkip",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "5-31",
+            "weight": 6.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        }
+    ]
+}

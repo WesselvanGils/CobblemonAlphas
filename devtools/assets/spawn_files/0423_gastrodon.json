@@ -1,0 +1,194 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gastrodon-east-1",
+            "pokemon": "gastrodon sea=east",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-48",
+            "weight": 1.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ],
+                "isRaining": true,
+                "minX": 0
+            }
+        },
+        {
+            "id": "gastrodon-east-2",
+            "pokemon": "gastrodon sea=east",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "30-48",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ],
+                "minX": 0
+            }
+        },
+        {
+            "id": "gastrodon-east-3",
+            "pokemon": "gastrodon sea=east",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-48",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ],
+                "minX": 0
+            }
+        },
+        {
+            "id": "gastrodon-west-4",
+            "pokemon": "gastrodon sea=west",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-48",
+            "weight": 1.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ],
+                "isRaining": true,
+                "maxX": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "gastrodon-west-5",
+            "pokemon": "gastrodon sea=west",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "30-48",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "maxX": 0
+            }
+        },
+        {
+            "id": "gastrodon-west-6",
+            "pokemon": "gastrodon sea=west",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-48",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "maxX": 0
+            }
+        },
+        {
+            "id": "gastrodon-east-7",
+            "pokemon": "gastrodon sea=east",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-48",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ],
+                "minX": 0
+            }
+        },
+        {
+            "id": "gastrodon-west-8",
+            "pokemon": "gastrodon sea=west",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-48",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "maxX": 0
+            }
+        }
+    ]
+}

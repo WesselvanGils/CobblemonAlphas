@@ -1,1 +1,15 @@
-{"target":"cobblemon:mewtwo","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.5}]}
+{
+    "target": "cobblemon:mewtwo",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.5
+        }
+    ]
+}

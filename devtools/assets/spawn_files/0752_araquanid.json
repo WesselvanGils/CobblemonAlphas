@@ -1,0 +1,163 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "araquanid-3",
+            "pokemon": "araquanid",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "22-45",
+            "weight": 0.96,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "araquanid-4",
+            "pokemon": "araquanid",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "22-45",
+            "weight": 0.2,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle"
+                ],
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "araquanid-5",
+            "pokemon": "araquanid",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "22-45",
+            "weight": 0.96,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "araquanid-6",
+            "pokemon": "araquanid",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "22-45",
+            "weight": 0.2,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_jungle"
+                ],
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "araquanid-1",
+            "pokemon": "araquanid",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "22-45",
+            "weight": 1.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "araquanid-2",
+            "pokemon": "araquanid",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "22-45",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

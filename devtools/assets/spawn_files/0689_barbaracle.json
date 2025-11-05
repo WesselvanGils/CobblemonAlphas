@@ -1,0 +1,78 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "barbaracle-3",
+            "pokemon": "barbaracle",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "39-50",
+            "weight": 0.96,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "barbaracle-4",
+            "pokemon": "barbaracle",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "39-50",
+            "weight": 0.2,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "barbaracle-1",
+            "pokemon": "barbaracle",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "39-50",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            }
+        },
+        {
+            "id": "barbaracle-2",
+            "pokemon": "barbaracle",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "39-50",
+            "weight": 1.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        }
+    ]
+}

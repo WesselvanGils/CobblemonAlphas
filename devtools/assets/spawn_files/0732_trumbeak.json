@@ -1,0 +1,31 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "trumbeak-1",
+            "pokemon": "trumbeak",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-36",
+            "weight": 0.9,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_sky",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

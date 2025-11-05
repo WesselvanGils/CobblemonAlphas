@@ -1,0 +1,147 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "seel-1",
+            "pokemon": "seel",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-33",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "seel-2",
+            "pokemon": "seel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "8-33",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "seel-3",
+            "pokemon": "seel",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "8-33",
+            "weight": 9.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 0.25,
+                    "condition": {
+                        "timeRange": "day"
+                    }
+                },
+                {
+                    "multiplier": 0.6,
+                    "condition": {
+                        "minLureLevel": 0,
+                        "maxLureLevel": 1
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "seel-4",
+            "pokemon": "seel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "8-33",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "seel-5",
+            "pokemon": "seel",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "8-33",
+            "weight": 9.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 0.25,
+                    "condition": {
+                        "timeRange": "day"
+                    }
+                },
+                {
+                    "multiplier": 0.6,
+                    "condition": {
+                        "minLureLevel": 0,
+                        "maxLureLevel": 1
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        }
+    ]
+}

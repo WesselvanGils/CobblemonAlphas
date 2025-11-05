@@ -1,0 +1,107 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sunflora-1",
+            "pokemon": "sunflora",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-43",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "minecraft:sunflower_plains"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:sunflower"
+                ]
+            }
+        },
+        {
+            "id": "sunflora-2",
+            "pokemon": "sunflora",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-43",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:sunflower"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "minecraft:sunflower_plains"
+                ]
+            }
+        },
+        {
+            "id": "sunflora-3",
+            "pokemon": "sunflora",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-43",
+            "weight": 0.3,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow"
+                ]
+            }
+        },
+        {
+            "id": "sunflora-4",
+            "pokemon": "sunflora",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-43",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:floral_meadow"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        }
+    ]
+}

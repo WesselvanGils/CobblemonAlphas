@@ -1,0 +1,175 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "slowbro-1",
+            "pokemon": "slowbro",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.45,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            }
+        },
+        {
+            "id": "slowbro-2",
+            "pokemon": "slowbro",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.15,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            }
+        },
+        {
+            "id": "slowbro-3",
+            "pokemon": "slowbro",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.15,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            }
+        },
+        {
+            "id": "slowbro-galarian-4",
+            "pokemon": "slowbro galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.45,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "minecraft:mushroom_fields",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "slowbro-galarian-5",
+            "pokemon": "slowbro galarian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.15,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:mushroom_fields",
+                    "#cobblemon:is_tropical_island"
+                ]
+            }
+        },
+        {
+            "id": "slowbro-galarian-6",
+            "pokemon": "slowbro galarian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.15,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "minecraft:mushroom_fields",
+                    "#cobblemon:is_tropical_island"
+                ]
+            }
+        }
+    ]
+}

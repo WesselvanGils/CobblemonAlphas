@@ -1,1 +1,15 @@
-{"target":"cobblemon:unfezant","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.9375}]}
+{
+    "target": "cobblemon:unfezant",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.9375
+        }
+    ]
+}

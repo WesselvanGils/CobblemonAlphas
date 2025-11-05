@@ -1,1 +1,15 @@
-{"target":"cobblemon:dubwool","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.375}]}
+{
+    "target": "cobblemon:dubwool",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.375
+        }
+    ]
+}

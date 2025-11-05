@@ -1,0 +1,132 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "barboach-1",
+            "pokemon": "barboach",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "barboach-2",
+            "pokemon": "barboach",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "4-29",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "barboach-3",
+            "pokemon": "barboach",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "barboach-4",
+            "pokemon": "barboach",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "barboach-5",
+            "pokemon": "barboach",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "barboach-6",
+            "pokemon": "barboach",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

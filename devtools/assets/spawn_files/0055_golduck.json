@@ -1,0 +1,128 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "golduck-1",
+            "pokemon": "golduck",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-50",
+            "weight": 0.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "golduck-2",
+            "pokemon": "golduck",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "33-50",
+            "weight": 0.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "golduck-3",
+            "pokemon": "golduck",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "33-50",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "golduck-4",
+            "pokemon": "golduck",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "33-50",
+            "weight": 0.2,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

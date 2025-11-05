@@ -1,0 +1,66 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hatenna-1",
+            "pokemon": "hatenna",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "2-27",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_magical",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
+                ]
+            }
+        },
+        {
+            "id": "hatenna-2",
+            "pokemon": "hatenna",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 1.8,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "minecraft:swamp_hut"
+                ]
+            }
+        },
+        {
+            "id": "hatenna-3",
+            "pokemon": "hatenna",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

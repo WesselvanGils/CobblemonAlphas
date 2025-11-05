@@ -1,0 +1,151 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "vaporeon-1",
+            "pokemon": "vaporeon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "28-53",
+            "weight": 1.2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_tropical_island"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "vaporeon-2",
+            "pokemon": "vaporeon",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "28-53",
+            "weight": 1.2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "vaporeon-3",
+            "pokemon": "vaporeon",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "28-53",
+            "weight": 0.02,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "vaporeon-4",
+            "pokemon": "vaporeon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "28-53",
+            "weight": 0.02,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "vaporeon-5",
+            "pokemon": "vaporeon",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "28-53",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "vaporeon-6",
+            "pokemon": "vaporeon",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "28-53",
+            "weight": 6.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

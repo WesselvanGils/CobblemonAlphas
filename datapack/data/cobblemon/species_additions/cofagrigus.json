@@ -1,1 +1,15 @@
-{"target":"cobblemon:cofagrigus","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1}]}
+{
+    "target": "cobblemon:cofagrigus",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1
+        }
+    ]
+}

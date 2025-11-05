@@ -1,0 +1,72 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "claydol-1",
+            "pokemon": "claydol",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "36-50",
+            "weight": 0.96,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_desert"
+                ],
+                "minY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "claydol-2",
+            "pokemon": "claydol",
+            "presets": [
+                "natural",
+                "desert_pyramid"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-50",
+            "weight": 6.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minY": 48
+            }
+        },
+        {
+            "id": "claydol-4",
+            "pokemon": "claydol",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "36-50",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:howling_constructs"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        }
+    ]
+}

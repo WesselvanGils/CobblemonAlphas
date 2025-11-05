@@ -1,0 +1,88 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "combee-1",
+            "pokemon": "combee",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-24",
+            "weight": 9.9,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                        "#minecraft:beehives"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_temperate"
+                ],
+                "timeRange": "day",
+                "isRaining": false
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "combee-2",
+            "pokemon": "combee",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-24",
+            "weight": 9.9,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                        "#minecraft:beehives"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        },
+        {
+            "id": "combee-3",
+            "pokemon": "combee",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-24",
+            "weight": 99.0,
+            "condition": {
+                "biomes": [
+                    "#the_bumblezone:the_bumblezone"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        }
+    ]
+}

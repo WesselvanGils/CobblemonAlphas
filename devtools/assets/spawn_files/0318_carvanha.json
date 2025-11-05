@@ -1,0 +1,231 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "carvanha-1",
+            "pokemon": "carvanha",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "carvanha-2",
+            "pokemon": "carvanha",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 1.8,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "carvanha-3",
+            "pokemon": "carvanha",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 2.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "carvanha-4",
+            "pokemon": "carvanha",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "carvanha-5",
+            "pokemon": "carvanha",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 1.8,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "carvanha-6",
+            "pokemon": "carvanha",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 2.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "carvanha-7",
+            "pokemon": "carvanha",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "carvanha-8",
+            "pokemon": "carvanha",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 1.8,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        }
+    ]
+}

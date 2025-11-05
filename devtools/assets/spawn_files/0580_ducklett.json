@@ -1,0 +1,148 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ducklett-3",
+            "pokemon": "ducklett",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "ducklett-1",
+            "pokemon": "ducklett",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "ducklett-4",
+            "pokemon": "ducklett",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_sky"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "ducklett-2",
+            "pokemon": "ducklett",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_sky"
+                ]
+            }
+        },
+        {
+            "id": "ducklett-7",
+            "pokemon": "ducklett",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "ducklett-8",
+            "pokemon": "ducklett",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        }
+    ]
+}

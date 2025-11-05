@@ -1,0 +1,70 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "pikachu-1",
+            "pokemon": "pikachu",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "16-32",
+            "weight": 0.712,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "pikachu-alola-2",
+            "pokemon": "pikachu region_bias=alola",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "16-32",
+            "weight": 1.84,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_beach",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland",
+                    "#cobblemon:is_tropical_island"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

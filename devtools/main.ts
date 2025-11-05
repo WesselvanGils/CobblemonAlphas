@@ -1,13 +1,9 @@
-import {
-    basename,
-    join,
-    resolve,
-} from "https://deno.land/std@0.224.0/path/mod.ts";
+import { basename, join, resolve, } from "@std/path";
 
 import species from "../datapack/data/cobblemon/species_feature_assignments/alpha.json" with {
     type: "json",
 };
-import { Pokemon } from "./pokemon.ts";
+import { Pokemon } from "./models/pokemon.ts";
 
 const pokemonData = await importJSONFilesToMap<Pokemon>(
     "./assets/data",

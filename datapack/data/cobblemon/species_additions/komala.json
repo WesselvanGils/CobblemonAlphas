@@ -1,1 +1,15 @@
-{"target":"cobblemon:komala","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.75}]}
+{
+    "target": "cobblemon:komala",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.75
+        }
+    ]
+}

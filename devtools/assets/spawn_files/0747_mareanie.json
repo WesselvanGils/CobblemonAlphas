@@ -1,0 +1,138 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mareanie-1",
+            "pokemon": "mareanie",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 5.04,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "mareanie-2",
+            "pokemon": "mareanie",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_warm_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "mareanie-3",
+            "pokemon": "mareanie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "mareanie-4",
+            "pokemon": "mareanie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "mareanie-5",
+            "pokemon": "mareanie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "6-31",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "mareanie-6",
+            "pokemon": "mareanie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        }
+    ]
+}

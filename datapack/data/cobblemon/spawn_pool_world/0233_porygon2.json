@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-porygon2-1","pokemon":"porygon2 alpha","type":"pokemon","context":"grounded","bucket":"uncommon","level":"35-52","weight":0.24,"condition":{"biomes":["#cobblemon:is_overworld"],"neededNearbyBlocks":["cobblemon:pc"]}}]}

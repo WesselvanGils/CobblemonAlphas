@@ -1,0 +1,123 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "misdreavus-1",
+            "pokemon": "misdreavus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 5.7,
+            "condition": {
+                "minSkyLight": 1,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "maxLight": 7
+            }
+        },
+        {
+            "id": "misdreavus-2",
+            "pokemon": "misdreavus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 1.9,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "misdreavus-3",
+            "pokemon": "misdreavus",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 5.7,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "misdreavus-4",
+            "pokemon": "misdreavus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 5.7,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "misdreavus-5",
+            "pokemon": "misdreavus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 5.7,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_warped"
+                ]
+            }
+        },
+        {
+            "id": "misdreavus-6",
+            "pokemon": "misdreavus",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 5.7,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#cobblemon:shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        }
+    ]
+}

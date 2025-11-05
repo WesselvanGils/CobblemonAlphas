@@ -1,0 +1,53 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wooloo-1",
+            "pokemon": "wooloo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_plains"
+                ]
+            }
+        },
+        {
+            "id": "wooloo-2",
+            "pokemon": "wooloo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow"
+                ]
+            }
+        }
+    ]
+}

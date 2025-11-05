@@ -1,0 +1,54 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "nincada-1",
+            "pokemon": "nincada",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle"
+                ],
+                "minY": 32,
+                "maxY": 62
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "nincada-2",
+            "pokemon": "nincada",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 5.7,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
+                ]
+            }
+        }
+    ]
+}

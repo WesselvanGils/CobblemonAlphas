@@ -1,1 +1,15 @@
-{"target":"cobblemon:zangoose","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.25}]}
+{
+    "target": "cobblemon:zangoose",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.25
+        }
+    ]
+}

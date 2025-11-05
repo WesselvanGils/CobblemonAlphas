@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-porygonz-1","pokemon":"porygonz alpha","type":"pokemon","context":"grounded","bucket":"uncommon","level":"47-54","weight":0.02666666666666667,"condition":{"biomes":["#cobblemon:is_overworld"],"neededNearbyBlocks":["cobblemon:pc"]}}]}

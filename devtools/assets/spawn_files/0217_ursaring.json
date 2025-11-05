@@ -1,0 +1,66 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ursaring-1",
+            "pokemon": "ursaring",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-50",
+            "weight": 0.19,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_taiga"
+                ],
+                "minY": 48
+            }
+        },
+        {
+            "id": "ursaring-2",
+            "pokemon": "ursaring",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-50",
+            "weight": 0.19,
+            "condition": {
+                "biomes": [
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
+                ]
+            }
+        },
+        {
+            "id": "ursaring-3",
+            "pokemon": "ursaring",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-50",
+            "weight": 0.19,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:crystal_canyon",
+                    "the_bumblezone:floral_meadow"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        }
+    ]
+}

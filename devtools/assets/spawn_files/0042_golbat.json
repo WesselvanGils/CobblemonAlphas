@@ -1,0 +1,194 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-46",
+            "weight": 0.18,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_swamp"
+                ],
+                "timeRange": "night",
+                "isRaining": false
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "golbat-3",
+            "pokemon": "golbat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-46",
+            "weight": 0.18,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "golbat-4",
+            "pokemon": "golbat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-46",
+            "weight": 0.9,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "golbat-5",
+            "pokemon": "golbat",
+            "presets": [
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "22-46",
+            "weight": 1.52,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "golbat-6",
+            "pokemon": "golbat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-46",
+            "weight": 0.9,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "golbat-8",
+            "pokemon": "golbat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "22-46",
+            "weight": 1.52,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "golbat-9",
+            "pokemon": "golbat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-46",
+            "weight": 0.9,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-victreebel-1","pokemon":"victreebel alpha","presets":["natural"],"type":"pokemon","context":"grounded","bucket":"common","level":"34-49","weight":0.016666666666666666,"condition":{"minSkyLight":8,"maxSkyLight":15,"biomes":["#cobblemon:is_jungle"]}}]}

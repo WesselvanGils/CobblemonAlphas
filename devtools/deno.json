@@ -6,5 +6,9 @@
     "fmt": {
         "indentWidth": 4,
         "semiColons": true
+    },
+    "imports": {
+        "@std/fs": "jsr:@std/fs@^1.0.19",
+        "@std/path": "jsr:@std/path@^1.1.2"
     }
 }

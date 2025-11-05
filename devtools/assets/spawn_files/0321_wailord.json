@@ -1,0 +1,129 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wailord-1",
+            "pokemon": "wailord",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.32,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_deep_ocean"
+                ]
+            }
+        },
+        {
+            "id": "wailord-2",
+            "pokemon": "wailord",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.32,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "wailord-3",
+            "pokemon": "wailord",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "40-50",
+            "weight": 0.32,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "wailord-4",
+            "pokemon": "wailord",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.32,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_deep_ocean"
+                ]
+            }
+        },
+        {
+            "id": "wailord-5",
+            "pokemon": "wailord",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.32,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "wailord-6",
+            "pokemon": "wailord",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "40-50",
+            "weight": 0.32,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        }
+    ]
+}

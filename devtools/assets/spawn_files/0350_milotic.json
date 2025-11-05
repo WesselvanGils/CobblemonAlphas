@@ -1,0 +1,66 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "milotic-1",
+            "pokemon": "milotic",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-54",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "milotic-2",
+            "pokemon": "milotic",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "15-54",
+            "weight": 0.5,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 1,
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        }
+    ]
+}

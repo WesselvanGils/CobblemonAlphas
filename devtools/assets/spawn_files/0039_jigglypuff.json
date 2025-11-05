@@ -1,0 +1,82 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "jigglypuff-1",
+            "pokemon": "jigglypuff",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-27",
+            "weight": 0.95,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            }
+        },
+        {
+            "id": "jigglypuff-2",
+            "pokemon": "jigglypuff",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-27",
+            "weight": 0.19,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            }
+        },
+        {
+            "id": "jigglypuff-3",
+            "pokemon": "jigglypuff",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-27",
+            "weight": 0.95,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow"
+                ]
+            }
+        }
+    ]
+}

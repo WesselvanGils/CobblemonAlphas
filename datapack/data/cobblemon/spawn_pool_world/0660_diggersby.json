@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-diggersby-1","pokemon":"diggersby alpha","presets":["natural"],"type":"pokemon","context":"grounded","bucket":"common","level":"20-42","weight":0.19999999999999998,"condition":{"biomes":["#cobblemon:is_hills","#cobblemon:is_temperate"],"minY":32}}]}

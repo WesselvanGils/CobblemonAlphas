@@ -1,0 +1,155 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mantine-1",
+            "pokemon": "mantine",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "30-49",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "minY": 48
+            }
+        },
+        {
+            "id": "mantine-2",
+            "pokemon": "mantine",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "30-49",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "mantine-3",
+            "pokemon": "mantine",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-49",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "mantine-4",
+            "pokemon": "mantine",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "30-49",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "minY": 48
+            }
+        },
+        {
+            "id": "mantine-5",
+            "pokemon": "mantine",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "30-49",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "mantine-6",
+            "pokemon": "mantine",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "30-49",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        }
+    ]
+}

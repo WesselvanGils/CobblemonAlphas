@@ -1,1 +1,15 @@
-{"target":"cobblemon:articuno","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.875}]}
+{
+    "target": "cobblemon:articuno",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.875
+        }
+    ]
+}

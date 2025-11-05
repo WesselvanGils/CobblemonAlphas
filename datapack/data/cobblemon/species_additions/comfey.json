@@ -1,1 +1,15 @@
-{"target":"cobblemon:comfey","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.4625}]}
+{
+    "target": "cobblemon:comfey",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.4625
+        }
+    ]
+}

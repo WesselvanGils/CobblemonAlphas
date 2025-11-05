@@ -1,0 +1,86 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "stonjourner-1",
+            "pokemon": "stonjourner",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "22-47",
+            "weight": 2.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:ruins/stonjourner_henge_ruins"
+                ]
+            }
+        },
+        {
+            "id": "stonjourner-2",
+            "pokemon": "stonjourner",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "22-47",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ],
+                "timeRange": "dusk"
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:ruins/stonjourner_henge_ruins"
+                ]
+            }
+        },
+        {
+            "id": "stonjourner-3",
+            "pokemon": "stonjourner",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 20.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "timeRange": "dusk"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:ruins/stonjourner_henge_ruins"
+                ]
+            }
+        }
+    ]
+}

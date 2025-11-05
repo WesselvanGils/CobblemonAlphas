@@ -1,0 +1,231 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "purrloin-1",
+            "pokemon": "purrloin",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 1.8,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_temperate"
+                ],
+                "timeRange": "night",
+                "isRaining": false
+            },
+            "anticondition": {
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "purrloin-2",
+            "pokemon": "purrloin",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 1.8,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ],
+                "timeRange": "night"
+            },
+            "anticondition": {
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "purrloin-3",
+            "pokemon": "purrloin",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isRaining": false
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "purrloin-4",
+            "pokemon": "purrloin",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isRaining": false,
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "purrloin-5",
+            "pokemon": "purrloin",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "purrloin-6",
+            "pokemon": "purrloin",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "purrloin-7",
+            "pokemon": "purrloin",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "purrloin-8",
+            "pokemon": "purrloin",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 54.0,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isRaining": false,
+                "structures": [
+                    "minecraft:swamp_hut"
+                ]
+            }
+        }
+    ]
+}

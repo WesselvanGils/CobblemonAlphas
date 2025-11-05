@@ -1,0 +1,101 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "parasect-1",
+            "pokemon": "parasect",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-41",
+            "weight": 1.6,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "parasect-2",
+            "pokemon": "parasect",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-41",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_mushroom"
+                ]
+            }
+        },
+        {
+            "id": "parasect-3",
+            "pokemon": "parasect",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-41",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_fungus"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:nether/is_warped"
+                ]
+            }
+        },
+        {
+            "id": "parasect-4",
+            "pokemon": "parasect",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-41",
+            "weight": 1.6,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        }
+    ]
+}

@@ -1,1 +1,15 @@
-{"target":"cobblemon:inteleon","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.125}]}
+{
+    "target": "cobblemon:inteleon",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.125
+        }
+    ]
+}

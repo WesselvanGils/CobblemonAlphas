@@ -1,0 +1,160 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gorebyss-1",
+            "pokemon": "gorebyss",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "30-49",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_deep_ocean"
+                ],
+                "maxY": 48
+            }
+        },
+        {
+            "id": "gorebyss-2",
+            "pokemon": "gorebyss",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "30-49",
+            "weight": 0.625,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ]
+            }
+        },
+        {
+            "id": "gorebyss-3",
+            "pokemon": "gorebyss",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "30-49",
+            "weight": 0.375,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "gorebyss-4",
+            "pokemon": "gorebyss",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "30-49",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_deep_ocean"
+                ],
+                "maxY": 48
+            }
+        },
+        {
+            "id": "gorebyss-5",
+            "pokemon": "gorebyss",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "30-49",
+            "weight": 0.625,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_warm_ocean"
+                ]
+            }
+        },
+        {
+            "id": "gorebyss-6",
+            "pokemon": "gorebyss",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "30-49",
+            "weight": 0.375,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "gorebyss-7",
+            "pokemon": "gorebyss",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "30-49",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "gorebyss-8",
+            "pokemon": "gorebyss",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "30-49",
+            "weight": 0.375,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        }
+    ]
+}

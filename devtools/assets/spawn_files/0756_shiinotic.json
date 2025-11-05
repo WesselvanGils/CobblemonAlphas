@@ -1,0 +1,100 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shiinotic-1",
+            "pokemon": "shiinotic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-41",
+            "weight": 0.2,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mushroom"
+                ],
+                "maxLight": 7
+            }
+        },
+        {
+            "id": "shiinotic-2",
+            "pokemon": "shiinotic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-41",
+            "weight": 0.2,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "shiinotic-3",
+            "pokemon": "shiinotic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-41",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_fungus"
+                ]
+            }
+        },
+        {
+            "id": "shiinotic-4",
+            "pokemon": "shiinotic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-41",
+            "weight": 0.2,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        }
+    ]
+}

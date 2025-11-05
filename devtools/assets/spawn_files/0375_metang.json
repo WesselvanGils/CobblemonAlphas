@@ -1,0 +1,99 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "metang-1",
+            "pokemon": "metang",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "20-44",
+            "weight": 3.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_peak"
+                ]
+            }
+        },
+        {
+            "id": "metang-2",
+            "pokemon": "metang",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-44",
+            "weight": 2.25,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            }
+        },
+        {
+            "id": "metang-3",
+            "pokemon": "metang",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-44",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        },
+        {
+            "id": "metang-4",
+            "pokemon": "metang",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-44",
+            "weight": 0.288,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "structures": [
+                    "#aether:dungeons"
+                ]
+            }
+        },
+        {
+            "id": "metang-5",
+            "pokemon": "metang",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-44",
+            "weight": 2.25,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:howling_constructs"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        }
+    ]
+}

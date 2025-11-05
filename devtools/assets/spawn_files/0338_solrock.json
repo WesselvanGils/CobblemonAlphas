@@ -1,0 +1,118 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "solrock-1",
+            "pokemon": "solrock",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "solrock-2",
+            "pokemon": "solrock",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "21-46",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ]
+            }
+        },
+        {
+            "id": "solrock-3",
+            "pokemon": "solrock",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 2.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "solrock-4",
+            "pokemon": "solrock",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "21-46",
+            "weight": 20.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:ruins/sol_henge_ruins"
+                ]
+            }
+        },
+        {
+            "id": "solrock-5",
+            "pokemon": "solrock",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow"
+                ]
+            }
+        }
+    ]
+}

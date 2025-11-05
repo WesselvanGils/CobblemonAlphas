@@ -1,1 +1,15 @@
-{"target":"cobblemon:ribombee","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.4375}]}
+{
+    "target": "cobblemon:ribombee",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.4375
+        }
+    ]
+}

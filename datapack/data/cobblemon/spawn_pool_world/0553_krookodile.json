@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-krookodile-1","pokemon":"krookodile alpha","presets":["natural","wild"],"type":"pokemon","context":"grounded","bucket":"common","level":"40-52","weight":0.006666666666666667,"condition":{"minSkyLight":8,"maxSkyLight":15,"biomes":["#cobblemon:is_desert"]}}]}

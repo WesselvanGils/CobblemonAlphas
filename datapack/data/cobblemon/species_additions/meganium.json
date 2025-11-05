@@ -1,1 +1,15 @@
-{"target":"cobblemon:meganium","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.9375}]}
+{
+    "target": "cobblemon:meganium",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.9375
+        }
+    ]
+}

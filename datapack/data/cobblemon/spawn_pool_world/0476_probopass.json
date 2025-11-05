@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-probopass-1","pokemon":"probopass alpha","presets":["natural"],"type":"pokemon","context":"grounded","bucket":"uncommon","level":"33-53","weight":0.16,"condition":{"minSkyLight":0,"maxSkyLight":7,"biomes":["#cobblemon:is_overworld"]},"anticondition":{"biomes":["#cobblemon:is_deep_dark"]}}]}

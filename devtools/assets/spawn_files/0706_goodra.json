@@ -1,0 +1,403 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "goodra-1",
+            "pokemon": "goodra",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-60",
+            "weight": 0.25,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "goodra-2",
+            "pokemon": "goodra",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-60",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": false
+            },
+            "anticondition": {
+                "isSlimeChunk": true
+            }
+        },
+        {
+            "id": "goodra-3",
+            "pokemon": "goodra",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-60",
+            "weight": 0.25,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": false,
+                "isSlimeChunk": true
+            }
+        },
+        {
+            "id": "goodra-4",
+            "pokemon": "goodra",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "50-60",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "isSlimeChunk": true
+            }
+        },
+        {
+            "id": "goodra-5",
+            "pokemon": "goodra",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "50-60",
+            "weight": 0.25,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isSlimeChunk": true
+            }
+        },
+        {
+            "id": "goodra-6",
+            "pokemon": "goodra",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "50-60",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "goodra-hisuian-7",
+            "pokemon": "goodra hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-60",
+            "weight": 0.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "goodra-hisuian-8",
+            "pokemon": "goodra hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-60",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            },
+            "anticondition": {
+                "isSlimeChunk": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "goodra-hisuian-9",
+            "pokemon": "goodra hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-60",
+            "weight": 0.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "goodra-hisuian-10",
+            "pokemon": "goodra hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "50-60",
+            "weight": 0.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 2
+            }
+        },
+        {
+            "id": "goodra-hisuian-11",
+            "pokemon": "goodra hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "50-60",
+            "weight": 0.02,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ],
+                "minLureLevel": 2
+            }
+        },
+        {
+            "id": "goodra-hisuian-12",
+            "pokemon": "goodra hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "50-60",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 2,
+                "isSlimeChunk": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "goodra-hisuian-13",
+            "pokemon": "goodra hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "50-60",
+            "weight": 0.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            },
+            "anticondition": {
+                "isSlimeChunk": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "goodra-hisuian-14",
+            "pokemon": "goodra hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "50-60",
+            "weight": 0.02,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 3
+            },
+            "anticondition": {
+                "isSlimeChunk": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "goodra-hisuian-15",
+            "pokemon": "goodra hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "50-60",
+            "weight": 0.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "minLureLevel": 2,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "goodra-hisuian-16",
+            "pokemon": "goodra hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "50-60",
+            "weight": 0.02,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 2,
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        }
+    ]
+}

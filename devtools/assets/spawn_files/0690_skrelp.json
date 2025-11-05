@@ -1,0 +1,179 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "skrelp-1",
+            "pokemon": "skrelp",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:kelp_plant"
+                ]
+            }
+        },
+        {
+            "id": "skrelp-2",
+            "pokemon": "skrelp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 1.8,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:kelp_plant"
+                ]
+            }
+        },
+        {
+            "id": "skrelp-3",
+            "pokemon": "skrelp",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:kelp_plant"
+                ]
+            }
+        },
+        {
+            "id": "skrelp-4",
+            "pokemon": "skrelp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 1.8,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:kelp_plant"
+                ]
+            }
+        },
+        {
+            "id": "skrelp-5",
+            "pokemon": "skrelp",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "skrelp-6",
+            "pokemon": "skrelp",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 1.8,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        }
+    ]
+}

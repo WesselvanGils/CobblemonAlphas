@@ -1,0 +1,100 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "drakloak-1",
+            "pokemon": "drakloak",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-55",
+            "weight": 3.6,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "timeRange": "dusk"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "drakloak-2",
+            "pokemon": "drakloak",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "ultra-rare",
+            "level": "50-55",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ],
+                "timeRange": "dusk"
+            }
+        },
+        {
+            "id": "drakloak-3",
+            "pokemon": "drakloak",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "50-55",
+            "weight": 3.6,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "timeRange": "dusk"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "drakloak-4",
+            "pokemon": "drakloak",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "50-55",
+            "weight": 3.6,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "timeRange": "dusk"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        }
+    ]
+}

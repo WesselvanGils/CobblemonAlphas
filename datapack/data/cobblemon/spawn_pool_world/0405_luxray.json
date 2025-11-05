@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-luxray-1","pokemon":"luxray alpha","presets":["natural","wild"],"type":"pokemon","context":"grounded","bucket":"uncommon","level":"30-52","weight":0.05333333333333334,"condition":{"minSkyLight":8,"maxSkyLight":15,"biomes":["#cobblemon:is_desert","#cobblemon:is_savanna"]}}]}

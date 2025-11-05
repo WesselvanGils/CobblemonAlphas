@@ -1,1 +1,15 @@
-{"target":"cobblemon:wailord","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":3.125}]}
+{
+    "target": "cobblemon:wailord",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 3.125
+        }
+    ]
+}

@@ -1,1 +1,15 @@
-{"target":"cobblemon:hitmonchan","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.3125}]}
+{
+    "target": "cobblemon:hitmonchan",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.3125
+        }
+    ]
+}

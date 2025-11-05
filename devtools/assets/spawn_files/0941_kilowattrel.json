@@ -1,0 +1,173 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kilowattrel-1",
+            "pokemon": "kilowattrel",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-49",
+            "weight": 0.2,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_island",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_sky"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "kilowattrel-2",
+            "pokemon": "kilowattrel",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-49",
+            "weight": 0.2,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ],
+                "timeRange": "night"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_beach",
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "kilowattrel-3",
+            "pokemon": "kilowattrel",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "25-49",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_island",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_sky"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_beach",
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "kilowattrel-5",
+            "pokemon": "kilowattrel",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "25-49",
+            "weight": 0.96,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_sky"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "kilowattrel-6",
+            "pokemon": "kilowattrel",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-49",
+            "weight": 0.2,
+            "weightMultipliers": [
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "isThundering": true
+                    }
+                },
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_sky"
+                ],
+                "timeRange": "day",
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

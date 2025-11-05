@@ -1,0 +1,72 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "baltoy-1",
+            "pokemon": "baltoy",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-30",
+            "weight": 5.04,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_desert"
+                ],
+                "minY": 0
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "baltoy-2",
+            "pokemon": "baltoy",
+            "presets": [
+                "natural",
+                "desert_pyramid"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 54.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minY": 48
+            }
+        },
+        {
+            "id": "baltoy-4",
+            "pokemon": "baltoy",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:howling_constructs"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        }
+    ]
+}

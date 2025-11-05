@@ -1,1 +1,15 @@
-{"target":"cobblemon:quagsire","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.375}]}
+{
+    "target": "cobblemon:quagsire",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.375
+        }
+    ]
+}

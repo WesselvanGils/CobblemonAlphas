@@ -1,1 +1,15 @@
-{"target":"cobblemon:lucario","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.8125}]}
+{
+    "target": "cobblemon:lucario",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.8125
+        }
+    ]
+}

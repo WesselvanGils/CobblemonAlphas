@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-piloswine-1","pokemon":"piloswine alpha","presets":["natural","wild"],"type":"pokemon","context":"grounded","bucket":"common","level":"33-45","weight":0.3,"condition":{"minSkyLight":8,"maxSkyLight":15,"biomes":["#cobblemon:is_tundra"]}}]}

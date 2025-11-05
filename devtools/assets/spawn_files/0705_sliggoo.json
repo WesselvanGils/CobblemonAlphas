@@ -1,0 +1,403 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sliggoo-1",
+            "pokemon": "sliggoo",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-45",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "sliggoo-2",
+            "pokemon": "sliggoo",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "40-45",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": false
+            },
+            "anticondition": {
+                "isSlimeChunk": true
+            }
+        },
+        {
+            "id": "sliggoo-3",
+            "pokemon": "sliggoo",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-45",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": false,
+                "isSlimeChunk": true
+            }
+        },
+        {
+            "id": "sliggoo-4",
+            "pokemon": "sliggoo",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "40-45",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "isSlimeChunk": true
+            }
+        },
+        {
+            "id": "sliggoo-5",
+            "pokemon": "sliggoo",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "40-45",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isSlimeChunk": true
+            }
+        },
+        {
+            "id": "sliggoo-6",
+            "pokemon": "sliggoo",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "40-45",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_coast",
+                    "#cobblemon:is_ocean",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "sliggoo-hisuian-7",
+            "pokemon": "sliggoo hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-45",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "sliggoo-hisuian-8",
+            "pokemon": "sliggoo hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "40-45",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            },
+            "anticondition": {
+                "isSlimeChunk": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "sliggoo-hisuian-9",
+            "pokemon": "sliggoo hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-45",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "sliggoo-hisuian-10",
+            "pokemon": "sliggoo hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "40-45",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 2
+            }
+        },
+        {
+            "id": "sliggoo-hisuian-11",
+            "pokemon": "sliggoo hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "40-45",
+            "weight": 0.18,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ],
+                "minLureLevel": 2
+            }
+        },
+        {
+            "id": "sliggoo-hisuian-12",
+            "pokemon": "sliggoo hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "40-45",
+            "weight": 3.6,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 2,
+                "isSlimeChunk": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "sliggoo-hisuian-13",
+            "pokemon": "sliggoo hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "40-45",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 2,
+                "maxLureLevel": 2
+            },
+            "anticondition": {
+                "isSlimeChunk": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "sliggoo-hisuian-14",
+            "pokemon": "sliggoo hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "40-45",
+            "weight": 0.18,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 3
+            },
+            "anticondition": {
+                "isSlimeChunk": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "sliggoo-hisuian-15",
+            "pokemon": "sliggoo hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "40-45",
+            "weight": 2.25,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "minLureLevel": 2,
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "sliggoo-hisuian-16",
+            "pokemon": "sliggoo hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "40-45",
+            "weight": 0.18,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": 3
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 2,
+                "isSlimeChunk": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_dripstone",
+                    "#cobblemon:is_lush"
+                ]
+            }
+        }
+    ]
+}

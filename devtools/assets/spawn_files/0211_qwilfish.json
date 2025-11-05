@@ -1,0 +1,686 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "qwilfish-1",
+            "pokemon": "qwilfish",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-2",
+            "pokemon": "qwilfish",
+            "presets": [
+                "water",
+                "ocean_monument"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 60.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-3",
+            "pokemon": "qwilfish",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-4",
+            "pokemon": "qwilfish",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-5",
+            "pokemon": "qwilfish",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 100.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "structures": [
+                    "minecraft:monument"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-6",
+            "pokemon": "qwilfish",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-7",
+            "pokemon": "qwilfish",
+            "presets": [
+                "water",
+                "ocean_monument"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 60.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-8",
+            "pokemon": "qwilfish",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-9",
+            "pokemon": "qwilfish",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_lukewarm_ocean",
+                    "#cobblemon:is_warm_ocean"
+                ],
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-10",
+            "pokemon": "qwilfish",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 100.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ],
+                "structures": [
+                    "minecraft:monument"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-11",
+            "pokemon": "qwilfish",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-12",
+            "pokemon": "qwilfish",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-13",
+            "pokemon": "qwilfish",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "minLureLevel": 1,
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-14",
+            "pokemon": "qwilfish hisuian",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-15",
+            "pokemon": "qwilfish hisuian",
+            "presets": [
+                "water",
+                "ocean_monument"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 54.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-16",
+            "pokemon": "qwilfish hisuian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-17",
+            "pokemon": "qwilfish hisuian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ],
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-18",
+            "pokemon": "qwilfish hisuian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 54.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ],
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-19",
+            "pokemon": "qwilfish hisuian",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-20",
+            "pokemon": "qwilfish hisuian",
+            "presets": [
+                "water",
+                "ocean_monument"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 54.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-21",
+            "pokemon": "qwilfish hisuian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1,
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-22",
+            "pokemon": "qwilfish hisuian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean"
+                ],
+                "minLureLevel": 1
+            },
+            "anticondition": {
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-23",
+            "pokemon": "qwilfish hisuian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 54.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ],
+                "structures": [
+                    "minecraft:monument"
+                ]
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-24",
+            "pokemon": "qwilfish hisuian",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-25",
+            "pokemon": "qwilfish hisuian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "19-44",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "qwilfish-hisuian-26",
+            "pokemon": "qwilfish hisuian",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ],
+                "minLureLevel": 1,
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        }
+    ]
+}

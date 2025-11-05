@@ -1,0 +1,73 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ledian-1",
+            "pokemon": "ledian",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-39",
+            "weight": 2.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_temperate"
+                ],
+                "timeRange": "night",
+                "isRaining": false
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "ledian-2",
+            "pokemon": "ledian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-39",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:floral_meadow"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        },
+        {
+            "id": "ledian-3",
+            "pokemon": "ledian",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-39",
+            "weight": 3.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        }
+    ]
+}

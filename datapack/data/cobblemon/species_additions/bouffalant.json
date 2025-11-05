@@ -1,1 +1,15 @@
-{"target":"cobblemon:bouffalant","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":2}]}
+{
+    "target": "cobblemon:bouffalant",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 2
+        }
+    ]
+}

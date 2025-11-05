@@ -1,1 +1,15 @@
-{"target":"cobblemon:mightyena","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.875}]}
+{
+    "target": "cobblemon:mightyena",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.875
+        }
+    ]
+}

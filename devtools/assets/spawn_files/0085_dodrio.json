@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dodrio-1",
+            "pokemon": "dodrio",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-47",
+            "weight": 1.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "dodrio-2",
+            "pokemon": "dodrio",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-47",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow"
+                ]
+            }
+        }
+    ]
+}

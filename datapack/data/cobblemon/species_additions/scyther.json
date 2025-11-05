@@ -1,1 +1,15 @@
-{"target":"cobblemon:scyther","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1}]}
+{
+    "target": "cobblemon:scyther",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1
+        }
+    ]
+}

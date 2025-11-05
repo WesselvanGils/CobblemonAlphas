@@ -1,1 +1,15 @@
-{"target":"cobblemon:arcanine","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.375}]}
+{
+    "target": "cobblemon:arcanine",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.375
+        }
+    ]
+}

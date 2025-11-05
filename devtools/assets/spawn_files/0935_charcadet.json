@@ -1,0 +1,78 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "charcadet-1",
+            "pokemon": "charcadet",
+            "presets": [
+                "natural",
+                "nether_structures"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-26",
+            "weight": 92.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ]
+            },
+            "drops": {
+                "amount": 3,
+                "entries": [
+                    {
+                        "item": "minecraft:blaze_rod",
+                        "quantityRange": "0-1"
+                    },
+                    {
+                        "item": "cobblemon:charcoal_stick",
+                        "percentage": 2.5
+                    },
+                    {
+                        "item": "cobblemon:rawst_berry",
+                        "percentage": 2.5
+                    }
+                ]
+            }
+        },
+        {
+            "id": "charcadet-2",
+            "pokemon": "charcadet",
+            "presets": [
+                "ruined_portal"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-26",
+            "weight": 18.4,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "charcadet-3",
+            "pokemon": "charcadet",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-26",
+            "weight": 9.2,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "structures": [
+                    "#aether:dungeons"
+                ]
+            }
+        }
+    ]
+}

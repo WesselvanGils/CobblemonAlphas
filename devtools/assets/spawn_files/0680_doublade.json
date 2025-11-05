@@ -1,0 +1,82 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "doublade-1",
+            "pokemon": "doublade",
+            "presets": [
+                "natural",
+                "nether_structures"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 15.2,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ]
+            }
+        },
+        {
+            "id": "doublade-2",
+            "pokemon": "doublade",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 7.12,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#cobblemon:ruin"
+                ]
+            }
+        },
+        {
+            "id": "doublade-3",
+            "pokemon": "doublade",
+            "presets": [
+                "stronghold"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 15.2,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "doublade-4",
+            "pokemon": "doublade",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 0.712,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "structures": [
+                    "#aether:dungeons"
+                ]
+            }
+        }
+    ]
+}

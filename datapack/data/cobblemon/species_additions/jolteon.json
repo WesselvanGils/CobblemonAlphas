@@ -1,1 +1,15 @@
-{"target":"cobblemon:jolteon","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1}]}
+{
+    "target": "cobblemon:jolteon",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1
+        }
+    ]
+}

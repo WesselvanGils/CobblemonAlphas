@@ -1,1 +1,15 @@
-{"target":"cobblemon:glaceon","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1}]}
+{
+    "target": "cobblemon:glaceon",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1
+        }
+    ]
+}

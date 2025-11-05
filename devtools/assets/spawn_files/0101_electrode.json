@@ -1,0 +1,114 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "electrode-1",
+            "pokemon": "electrode",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-49",
+            "weight": 0.2,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "electrode-2",
+            "pokemon": "electrode",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-49",
+            "weight": 0.2,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "electrode-3",
+            "pokemon": "electrode",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-49",
+            "weight": 16.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:lightning_rod"
+                ]
+            }
+        },
+        {
+            "id": "electrode-hisuian-4",
+            "pokemon": "electrode hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-49",
+            "weight": 8.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:apricorns"
+                ]
+            }
+        }
+    ]
+}

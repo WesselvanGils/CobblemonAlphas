@@ -1,0 +1,114 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rapidash-1",
+            "pokemon": "rapidash",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.96,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_grassland"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "rapidash-2",
+            "pokemon": "rapidash",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-50",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_overgrowth",
+                    "#cobblemon:nether/is_wasteland"
+                ]
+            },
+            "drops": {
+                "amount": 4,
+                "entries": [
+                    {
+                        "item": "minecraft:leather",
+                        "quantityRange": "0-2"
+                    },
+                    {
+                        "item": "minecraft:blaze_powder",
+                        "percentage": 10.0
+                    },
+                    {
+                        "item": "cobblemon:shuca_berry",
+                        "percentage": 5.0
+                    }
+                ]
+            }
+        },
+        {
+            "id": "rapidash-galarian-3",
+            "pokemon": "rapidash galarian",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 1.6,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_magical"
+                ]
+            }
+        },
+        {
+            "id": "rapidash-galarian-4",
+            "pokemon": "rapidash galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-50",
+            "weight": 1.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        }
+    ]
+}

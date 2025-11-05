@@ -1,0 +1,95 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "goldeen-1",
+            "pokemon": "goldeen",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_river"
+                ]
+            }
+        },
+        {
+            "id": "goldeen-2",
+            "pokemon": "goldeen",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_bamboo",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_temperate"
+                ]
+            }
+        },
+        {
+            "id": "goldeen-3",
+            "pokemon": "goldeen",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_river"
+                ]
+            }
+        },
+        {
+            "id": "goldeen-4",
+            "pokemon": "goldeen",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_bamboo",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_magical",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_temperate"
+                ]
+            }
+        }
+    ]
+}

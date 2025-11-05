@@ -1,0 +1,798 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wooper-1",
+            "pokemon": "wooper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "wooper-2",
+            "pokemon": "wooper",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            }
+        },
+        {
+            "id": "wooper-3",
+            "pokemon": "wooper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ],
+                "maxY": 62
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "wooper-4",
+            "pokemon": "wooper",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "maxY": 62
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "wooper-5",
+            "pokemon": "wooper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 1.8,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-6",
+            "pokemon": "wooper",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-7",
+            "pokemon": "wooper",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-8",
+            "pokemon": "wooper",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "wooper-9",
+            "pokemon": "wooper",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 1.8,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-10",
+            "pokemon": "wooper",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 1.8,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_swamp"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-11",
+            "pokemon": "wooper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "wooper-12",
+            "pokemon": "wooper",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "wooper-13",
+            "pokemon": "wooper",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "wooper-14",
+            "pokemon": "wooper",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ]
+            }
+        },
+        {
+            "id": "wooper-heart-15",
+            "pokemon": "wooper wooper_pattern=heart",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 10.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "bobber": "cobblemon:love_ball"
+            }
+        },
+        {
+            "id": "wooper-heart-16",
+            "pokemon": "wooper wooper_pattern=heart",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 2.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_swamp"
+                ],
+                "bobber": "cobblemon:love_ball"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-heart-17",
+            "pokemon": "wooper wooper_pattern=heart",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 20.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "bait": "cobblemon:love_sweet"
+            }
+        },
+        {
+            "id": "wooper-heart-18",
+            "pokemon": "wooper wooper_pattern=heart",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 20.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_swamp"
+                ],
+                "bait": "cobblemon:love_sweet"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-heart-19",
+            "pokemon": "wooper wooper_pattern=heart",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 2.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_swamp"
+                ],
+                "bobber": "cobblemon:love_ball"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-heart-20",
+            "pokemon": "wooper wooper_pattern=heart",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 20.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mushroom",
+                    "#cobblemon:is_swamp"
+                ],
+                "bait": "cobblemon:love_sweet"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-paldean-21",
+            "pokemon": "wooper paldean",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-paldean-22",
+            "pokemon": "wooper paldean",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-paldean-23",
+            "pokemon": "wooper paldean",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 8.4,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "wooper-paldean-24",
+            "pokemon": "wooper paldean",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "wooper-paldean-25",
+            "pokemon": "wooper paldean",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-paldean-26",
+            "pokemon": "wooper paldean",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "wooper-paldean-27",
+            "pokemon": "wooper paldean",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ],
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "wooper-paldean-28",
+            "pokemon": "wooper paldean",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-paldean-29",
+            "pokemon": "wooper paldean",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "wooper-paldean-30",
+            "pokemon": "wooper paldean",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:has_block/mud"
+                ]
+            }
+        },
+        {
+            "id": "wooper-paldean-31",
+            "pokemon": "wooper paldean",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "1-21",
+            "weight": 8.4,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            },
+            "anticondition": {
+                "minLureLevel": 1
+            }
+        },
+        {
+            "id": "wooper-paldean-32",
+            "pokemon": "wooper paldean",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-21",
+            "weight": 9.0,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 1,
+                    "maxLureLevel": 2
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ],
+                "minLureLevel": 1
+            }
+        }
+    ]
+}

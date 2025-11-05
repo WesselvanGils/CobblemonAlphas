@@ -1,1 +1,15 @@
-{"target":"cobblemon:muk","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.75}]}
+{
+    "target": "cobblemon:muk",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.75
+        }
+    ]
+}

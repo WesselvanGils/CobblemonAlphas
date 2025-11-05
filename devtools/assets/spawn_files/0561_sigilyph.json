@@ -1,0 +1,146 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sigilyph-1",
+            "pokemon": "sigilyph",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-49",
+            "weight": 60.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_desert"
+                ],
+                "structures": [
+                    "#cobblemon:ruin"
+                ]
+            }
+        },
+        {
+            "id": "sigilyph-2",
+            "pokemon": "sigilyph",
+            "presets": [
+                "natural",
+                "desert_pyramid"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 60.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "minecraft:desert_well"
+                ]
+            }
+        },
+        {
+            "id": "sigilyph-3",
+            "pokemon": "sigilyph",
+            "presets": [
+                "natural",
+                "jungle_pyramid"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 60.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "sigilyph-4",
+            "pokemon": "sigilyph",
+            "presets": [
+                "trail_ruins"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 60.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "sigilyph-5",
+            "pokemon": "sigilyph",
+            "presets": [
+                "natural",
+                "end_city"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-49",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            }
+        },
+        {
+            "id": "sigilyph-7",
+            "pokemon": "sigilyph",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-49",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "structures": [
+                    "#aether:dungeons"
+                ]
+            }
+        },
+        {
+            "id": "sigilyph-8",
+            "pokemon": "sigilyph",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-49",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:howling_constructs"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        }
+    ]
+}

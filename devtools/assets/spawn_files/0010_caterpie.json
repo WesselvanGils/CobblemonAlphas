@@ -1,0 +1,77 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "caterpie-1",
+            "pokemon": "caterpie",
+            "presets": [
+                "natural",
+                "foliage",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-20",
+            "weight": 7.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_plains",
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "caterpie-valencian-3",
+            "pokemon": "caterpie valencian",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-20",
+            "weight": 7.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_tropical_island"
+                ]
+            }
+        },
+        {
+            "id": "caterpie-valencian-4",
+            "pokemon": "caterpie valencian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-20",
+            "weight": 4.5,
+            "condition": {
+                "biomes": [
+                    "the_bumblezone:floral_meadow"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        }
+    ]
+}

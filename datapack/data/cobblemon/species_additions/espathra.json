@@ -1,1 +1,15 @@
-{"target":"cobblemon:espathra","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.0875}]}
+{
+    "target": "cobblemon:espathra",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.0875
+        }
+    ]
+}

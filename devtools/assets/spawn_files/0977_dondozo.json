@@ -1,0 +1,83 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dondozo-1",
+            "pokemon": "dondozo",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "28-53",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "dondozo-2",
+            "pokemon": "dondozo",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "28-53",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_bamboo",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "dondozo-3",
+            "pokemon": "dondozo",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "28-53",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "dondozo-4",
+            "pokemon": "dondozo",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "28-53",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_bamboo",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "aegislash-1",
+            "pokemon": "aegislash",
+            "presets": [
+                "natural",
+                "nether_structures"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.8,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ]
+            }
+        },
+        {
+            "id": "aegislash-2",
+            "pokemon": "aegislash",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.48,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#cobblemon:ruin"
+                ]
+            }
+        },
+        {
+            "id": "aegislash-3",
+            "pokemon": "aegislash",
+            "presets": [
+                "stronghold"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.8,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "aegislash-4",
+            "pokemon": "aegislash",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.048,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "structures": [
+                    "#aether:dungeons"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ludicolo-1",
+            "pokemon": "ludicolo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "29-48",
+            "weight": 0.01,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "ludicolo-2",
+            "pokemon": "ludicolo",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "29-48",
+            "weight": 0.03,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "ludicolo-3",
+            "pokemon": "ludicolo",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "29-48",
+            "weight": 0.05,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "ludicolo-4",
+            "pokemon": "ludicolo",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "29-48",
+            "weight": 0.05,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": 0,
+                    "maxLureLevel": 1
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": true
+            }
+        }
+    ]
+}

@@ -1,1 +1,15 @@
-{"target":"cobblemon:walrein","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.5625}]}
+{
+    "target": "cobblemon:walrein",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.5625
+        }
+    ]
+}

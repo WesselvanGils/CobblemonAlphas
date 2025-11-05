@@ -1,0 +1,30 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "snorlax-1",
+            "pokemon": "snorlax",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "34-54",
+            "weight": 2.5,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_hills"
+                ]
+            }
+        }
+    ]
+}

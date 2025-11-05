@@ -1,0 +1,82 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ceruledge-1",
+            "pokemon": "ceruledge",
+            "presets": [
+                "natural",
+                "nether_structures"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "21-53",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ]
+            },
+            "drops": {
+                "amount": 5,
+                "entries": [
+                    {
+                        "item": "minecraft:blaze_rod",
+                        "quantityRange": "0-2"
+                    },
+                    {
+                        "item": "cobblemon:charcoal_stick",
+                        "percentage": 5.0
+                    },
+                    {
+                        "item": "cobblemon:malicious_armor",
+                        "percentage": 5.0
+                    },
+                    {
+                        "item": "cobblemon:rawst_berry",
+                        "percentage": 5.0
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ceruledge-2",
+            "pokemon": "ceruledge",
+            "presets": [
+                "ruined_portal"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "21-53",
+            "weight": 0.8,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "ceruledge-3",
+            "pokemon": "ceruledge",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "21-53",
+            "weight": 0.4,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "structures": [
+                    "#aether:dungeons"
+                ]
+            }
+        }
+    ]
+}

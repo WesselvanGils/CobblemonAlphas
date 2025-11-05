@@ -1,0 +1,65 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sneasel-1",
+            "pokemon": "sneasel",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "18-43",
+            "weight": 9.2,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "sneasel-hisuian-2",
+            "pokemon": "sneasel hisuian",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "18-43",
+            "weight": 9.2,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        }
+    ]
+}

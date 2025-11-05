@@ -1,1 +1,15 @@
-{"target":"cobblemon:shuckle","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":0.625}]}
+{
+    "target": "cobblemon:shuckle",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 0.625
+        }
+    ]
+}

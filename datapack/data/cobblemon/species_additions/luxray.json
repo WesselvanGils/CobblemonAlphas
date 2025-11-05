@@ -1,1 +1,15 @@
-{"target":"cobblemon:luxray","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.4375}]}
+{
+    "target": "cobblemon:luxray",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.4375
+        }
+    ]
+}

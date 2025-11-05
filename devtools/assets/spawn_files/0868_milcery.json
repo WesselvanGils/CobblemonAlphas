@@ -1,0 +1,66 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "milcery-1",
+            "pokemon": "milcery",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 9.5,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:cake"
+                ]
+            }
+        },
+        {
+            "id": "milcery-2",
+            "pokemon": "milcery",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "2-27",
+            "weight": 1.84,
+            "condition": {
+                "biomes": [
+                    "#aether:is_aether",
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:sugar_cane"
+                ]
+            }
+        },
+        {
+            "id": "milcery-3",
+            "pokemon": "milcery",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-27",
+            "weight": 1.9,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:light_grey_carpet",
+                    "minecraft:magenta_carpet",
+                    "minecraft:white_carpet"
+                ]
+            }
+        }
+    ]
+}

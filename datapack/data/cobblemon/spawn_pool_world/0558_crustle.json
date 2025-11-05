@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-crustle-1","pokemon":"crustle alpha","presets":["natural"],"type":"pokemon","context":"grounded","bucket":"common","level":"34-49","weight":0.3333333333333333,"condition":{"biomes":["#cobblemon:is_badlands"]}}]}

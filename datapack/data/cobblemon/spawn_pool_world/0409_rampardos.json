@@ -1,0 +1,1 @@
+{"enabled":true,"neededInstalledMods":[],"neededUninstalledMods":[],"spawns":[{"id":"alpha-rampardos-1","pokemon":"rampardos alpha","presets":["natural"],"type":"pokemon","context":"grounded","bucket":"ultra-rare","level":"30-50","weight":1.3333333333333333,"condition":{"minSkyLight":8,"maxSkyLight":15,"biomes":["#cobblemon:is_lush"]}}]}

@@ -1,1 +1,15 @@
-{"target":"cobblemon:exeggutor","features":["alpha"],"forms":[{"name":"Alpha","aspects":["alpha"],"baseScale":1.0625}]}
+{
+    "target": "cobblemon:exeggutor",
+    "features": [
+        "alpha"
+    ],
+    "forms": [
+        {
+            "name": "Alpha",
+            "aspects": [
+                "alpha"
+            ],
+            "baseScale": 1.0625
+        }
+    ]
+}
