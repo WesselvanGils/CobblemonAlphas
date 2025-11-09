@@ -1,5 +1,5 @@
 {
-    "species": "cobblemon:meganium",
+    "species": "cobblemon:purugly",
     "order": 0,
     "variations": [
         {
@@ -9,7 +9,7 @@
             "layers": [
                 {
                     "name": "alpha_eyes",
-                    "texture": "cobblemon:textures/pokemon/0154_meganium/meganium_eyes.png",
+                    "texture": "cobblemon:textures/pokemon/0432_purugly/purugly_eyes.png",
                     "emissive": true,
                     "translucent": true
                 }
