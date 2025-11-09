@@ -1,4 +1,4 @@
-#> called by perfect_ivs
+#> called by internal/alpha/perfect_ivs
 
 # Check to see if the IV is already perfect and abort if so
 $execute store result score cobblemon_alphas_command cobblemon_alphas.perfect run data get entity @s Pokemon.IVs."cobblemon:$(iv)"

@@ -1,5 +1,5 @@
 #> called by reset
 
-execute as @e[type=cobblemon:pokemon, tag=!cobblemon_alphas.processed, nbt={Pokemon: {FormId: "alpha", PokemonOriginalTrainerType: "NONE"}}] run function alphas:internal/add_alpha_traits
+execute as @e[type=cobblemon:pokemon, nbt={Pokemon: {FormId: "alpha", PokemonOriginalTrainerType: "NONE"}}] at @s run function alphas:internal/clock/tick_wild_alphas
 
 schedule function alphas:internal/clock/1s_clock 1s replace
