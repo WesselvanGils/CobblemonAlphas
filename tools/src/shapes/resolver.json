@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:{{SPECIES}}",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [
+                "alpha"
+            ],
+            "layers": [
+                {
+                    "name": "alpha_eyes",
+                    "texture": "cobblemon:textures/pokemon/{{NUMBER}}_{{SPECIES}}/{{SPECIES}}_eyes.png",
+                    "emissive": true,
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}
