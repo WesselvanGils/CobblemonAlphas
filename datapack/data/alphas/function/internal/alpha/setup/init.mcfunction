@@ -3,15 +3,9 @@
 # Make sure we don't process the same entity twice
 tag @s add cobblemon_alphas.processed
 
-# Make the alpha uncatchable
-data modify entity @s Pokemon.PokemonData set value ["uncatchable","uncatchable","uncatchable"]
-
 # Perfect 3 random IVs
 scoreboard players set @s cobblemon_alphas.perfect 0
 execute as @s run function alphas:internal/alpha/setup/perfect_ivs
-
-# Add hostile AI
-execute as @s run function alphas:internal/alpha/setup/replace_ai
 
 # Start attack cooldown
 scoreboard players set @s cobblemon_alphas.attack_cd 0

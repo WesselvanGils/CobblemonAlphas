@@ -1,0 +1,3 @@
+scoreboard objectives remove cobblemon_alphas.perfect
+scoreboard objectives remove cobblemon_alphas.attack_dmg
+scoreboard objectives remove cobblemon_alphas.attack_cd

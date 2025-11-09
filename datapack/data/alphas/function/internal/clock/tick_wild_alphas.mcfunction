@@ -5,6 +5,12 @@
 # Setup any alphas that weren't initialized yet
 execute if entity @s[tag=!cobblemon_alphas.processed] run function alphas:internal/alpha/setup/init
 
+# See if we need to update the AI
+function alphas:internal/alpha/ai/resolve
+
+### Stop execution if we are in a pokemon battle ###
+execute if data entity @s BattleId run return fail
+
 # Attack nearby players
 execute store result storage alphas:tmp damage int 1 run scoreboard players get @s cobblemon_alphas.attack_dmg
 function alphas:internal/alpha/attack with storage alphas:tmp
