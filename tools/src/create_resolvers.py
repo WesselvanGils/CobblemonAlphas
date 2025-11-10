@@ -13,7 +13,7 @@ with open("src/shapes/resolver.json", "r", encoding="utf-8") as f:
 base_path = "../resourcepack/assets/cobblemon/bedrock/pokemon/resolvers"
 
 for number, species in zip(col1, col3):
-    if (" " in species): 
+    if (" " in species and "Mega" not in species): 
         continue
 
     out_dir = os.path.join(base_path, f"{number}_{species}") 
