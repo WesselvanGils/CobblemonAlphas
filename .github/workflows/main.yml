@@ -17,7 +17,8 @@ jobs:
       - name: Create ZIP
         run: |
           mkdir dist
-          zip -r "dist/Cobblemon Alphas ${{ github.ref_name }}.zip" ./minecraft/*
+          cd minecraft
+          zip -r "../dist/Cobblemon Alphas ${{ github.ref_name }}.zip" .
 
       - name: Prepare release notes
         run: |
