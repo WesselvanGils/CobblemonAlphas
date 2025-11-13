@@ -1,0 +1,25 @@
+## v2.2
+- Removed resolvers for untexture cobblemon
+
+## v2.1 (Forged in Fabric)
+- Unified the datapack and resource pack
+- Added Forge and Fabric support
+
+## v2.0
+- Added Alpha forms to all fully evolved Gen2 Cobblemon
+- Updated natural spawning
+- Full code overhaul
+- Alphas are now hostile with no additional mods
+- VFX for encountering Alphas
+- Perfomance improvements
+- New icon
+
+## v1.1 (Beta update)
+- Performance patch
+
+## v1.0 (Beta release)
+- Initial Release
+- All Gen1 Pokemon have glowing eyes
+- All Alpha Pokemon are 1.25x bigger
+- All Alpha Pokemon spawn with 3 perfect IVs
+- Any fully evolved Pokemon has a 1/4 chance to become an Alpha
