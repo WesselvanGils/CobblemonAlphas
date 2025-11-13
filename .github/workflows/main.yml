@@ -17,7 +17,7 @@ jobs:
       - name: Create ZIP
         run: |
           mkdir dist
-          zip -r dist/Cobblemon\ Alphas\ ${{ github.ref_name }}.zip ./minecraft/*
+          zip -r "dist/Cobblemon Alphas ${{ github.ref_name }}.zip" ./minecraft/*
 
       - name: Prepare release notes
         run: |
@@ -25,6 +25,6 @@ jobs:
           
       - uses: ncipollo/release-action@v1
         with:
-          artifacts: dist/Cobblemon\ Alphas\ ${{ github.ref_name }}.zip
+          artifacts: "dist/Cobblemon Alphas ${{ github.ref_name }}.zip"
           bodyFile: "release_notes.md"
     
