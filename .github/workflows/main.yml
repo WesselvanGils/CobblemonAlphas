@@ -1,0 +1,30 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Create ZIP
+        run: |
+          mkdir dist
+          zip -r dist/${{ github.ref_name }}.zip ./minecraft/*
+
+      - name: Prepare release notes
+        run: |
+          sed -n "/^## $GITHUB_REF_NAME/,/^## /{ /^## /b; p }" changelog.log > release_notes.md
+          
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: dist/${{ github.ref_name }}.zip
+          bodyFile: "release_notes.md"
+    
