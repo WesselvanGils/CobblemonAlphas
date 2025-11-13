@@ -25,6 +25,6 @@ jobs:
           
       - uses: ncipollo/release-action@v1
         with:
-          artifacts: dist/"Cobblemon Alphas v"${{ github.ref_name }}.zip
+          artifacts: dist/Cobblemon\ Alphas\ v${{ github.ref_name }}.zip
           bodyFile: "release_notes.md"
     
