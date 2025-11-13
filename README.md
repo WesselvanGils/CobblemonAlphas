@@ -1,18 +1,21 @@
-# [Early Access] Cobblemon Alphas
+# Cobblemon Alphas
 
-The current state of the project is that it's in Alpha. The bsic logic is in place and any fully evolved pokemon can be spawned with: 
+Fully evolved Cobblemon can be spawned with: 
 ```
 /pokespawn <name> alpha
 ```
-Currently there are alpha eyes in place for all 151 original pokemon
+Currently there are alpha eyes in place for all Gen1 and Gen2 Cobblemon
 
-## Having cobblemon attack players
+## Features
+- Any fully evolved Cobblemon has a 1/4 chance of spawning as an alpha
+- All Alpha Cobblemon are 1.25x bigger
+- All Alpha Cobblemon spawn with 3 perfect IVs
+- All Alpha Cobblemon will roar and start attacking players that come too close
 
-To actually fight the mons use [Fight or Fligh Reborn](https://modrinth.com/mod/cobblemon-fight-or-flight-reborn) and set
-- `"do_pokemon_attack_unprovoked": true`
-- `"always_aggro_aspects": ["alpha"]`
-
-in the config
+### Upcoming
+- Gen3 Cobblemon Alpha eyes (planned for v3)
+- Alpha music will play (Planned for v3)
+- Alpha Cobblemon will spawn with a herd (Planned for v3)
 
 ## Contributing
 
