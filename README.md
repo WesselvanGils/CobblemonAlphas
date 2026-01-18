@@ -1,3 +1,8 @@
+# THIS REPOSITORY HAS BEEN ARCHIVED
+
+All my work here will, in time, be ported over and be made part of [Cobblemon Alphas by Cudzer](https://github.com/Cudzer/cobblemonalphas) as I am now part of development there.
+
+
 # Cobblemon Alphas
 
 Fully evolved Cobblemon can be spawned with: 
